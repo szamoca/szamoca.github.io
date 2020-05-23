@@ -35,8 +35,13 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 8rem;
   color: var(--greek-wall);
+}
+
+@media(min-width: 900px) {
+  h1 {
+    font-size: 8rem;
+  }
 }
 
 section.introduction {
@@ -58,6 +63,20 @@ p, span, ul, li {
   font-size: var(--paragprah-size);
   color: var(--greek-navy);
   text-align: justify;
+}
+
+@media(max-width: 600px) {
+  p, span, ul, li {
+    text-align: left;
+  }
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .menu-title {
