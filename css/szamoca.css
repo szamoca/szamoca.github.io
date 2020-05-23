@@ -1,0 +1,61 @@
+:root {
+  --greek-navy: #034488;
+  --greek-sea: #168fd6;
+  --greek-wall: #fffcf5;
+  --heading-font: 'Poiret One';
+  --heading-spacing: 1rem;
+  --paragraph-spacing: .4rem;
+  --paragraph-line-height: 4rem;
+  --paragprah-size: 2rem;
+}
+
+body {
+  background: var(--greek-wall);
+}
+
+section.header.banner {
+  height: 100vh;
+  width: 100vw;
+  background: url('/images/banner.jpg') no-repeat center center fixed;
+  color: var(--greek-wall);
+}
+
+h1, h2 {
+  color: var(--greek-sea);
+}
+
+h3, h4 {
+  color: var(--greek-navy);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--heading-font);
+  letter-spacing: var(--heading-spacing);
+  text-align: center;
+}
+
+h1 {
+  font-size: 8rem;
+  color: var(--greek-wall);
+}
+
+section.introduction {
+  margin-top: 15%;
+}
+
+h2 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+p, span, ul, li {
+  letter-spacing: var(--paragraph-spacing);
+  line-height: var(--paragraph-line-height);
+  font-size: var(--paragprah-size);
+  color: var(--greek-navy);
+  text-align: justify;
+}
+
+.menu-title {
+  font-family: 'Poiret One';
+}
