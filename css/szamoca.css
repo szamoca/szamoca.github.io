@@ -44,6 +44,39 @@ h1 {
   }
 }
 
+@media(min-width: 1400px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  section.navigation ul {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    list-style-type: none;
+  }
+
+  section.navigation ul li {
+    text-align: right;
+  }
+
+  section.navigation ul li a {
+    color: var(--greek-sea);
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width: 600px) {
+  section.navigation {
+    display: none;
+  }
+
+  p, span, ul, li {
+    text-align: left;
+  }
+}
+
 section.introduction {
   margin-top: 15%;
 }
@@ -63,12 +96,6 @@ p, span, ul, li {
   font-size: var(--paragprah-size);
   color: var(--greek-navy);
   text-align: justify;
-}
-
-@media(max-width: 600px) {
-  p, span, ul, li {
-    text-align: left;
-  }
 }
 
 .text-align-right {
