@@ -38,45 +38,6 @@ h1 {
   color: var(--greek-wall);
 }
 
-@media(min-width: 900px) {
-  h1 {
-    font-size: 8rem;
-  }
-}
-
-@media(min-width: 1400px) {
-  html {
-    scroll-behavior: smooth;
-  }
-
-  section.navigation ul {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    list-style-type: none;
-  }
-
-  section.navigation ul li {
-    text-align: right;
-  }
-
-  section.navigation ul li a {
-    color: var(--greek-sea);
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-}
-
-@media(max-width: 600px) {
-  section.navigation {
-    display: none;
-  }
-
-  p, span, ul, li {
-    text-align: left;
-  }
-}
-
 section.introduction {
   margin-top: 15%;
 }
