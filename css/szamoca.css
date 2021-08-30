@@ -9,6 +9,11 @@
   --paragprah-size: 1.8rem;
 }
 
+*::selection {
+  color: var(--greek-wall);
+  background-color: var(--greek-sea);
+}
+
 body {
   background: var(--greek-wall);
 }
